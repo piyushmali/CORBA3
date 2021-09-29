@@ -8,6 +8,11 @@
     import org.omg.PortableServer.POA;
     import java.util.Properties;
 
+/**
+ *
+ * @author Piyush Mali
+ */
+
 class BankInterfaceImpl extends BankInterfacePOA  // This is the servant class
 {
     private ORB orb;
