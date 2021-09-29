@@ -1,0 +1,10 @@
+module BankApp
+{
+
+	interface BankInterface
+	{
+		string getFixedDeposit(in double x, in double y);
+		string getTotalAmount(in double x, in double y);
+		oneway void shutdown();
+	};
+};
