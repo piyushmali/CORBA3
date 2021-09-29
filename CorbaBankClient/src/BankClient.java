@@ -5,6 +5,11 @@ import org.omg.CORBA.*;
 import java.util.Scanner;
 import java.lang.*;
 
+/**
+ *
+ * @author Piyush Mali
+ */
+
 public class BankClient
 {
   static BankInterface BankImpl;
